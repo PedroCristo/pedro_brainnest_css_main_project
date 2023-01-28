@@ -20,6 +20,7 @@
     src: url(../fonts/roboto/Roboto-LightItalic.ttf);
 }
 
+/* General Styles */
 * {
     padding: 0;
     margin: 0;
@@ -64,6 +65,27 @@ ul {
     margin: 15px 0;
 }
 
+/* navbar */
+.navbar {
+    background-color: #1F2937;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    margin-right: 25px;
+}
+
+.navbar .logo p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar .nav-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 15px;
+}
+
 /* Header */
 #header {
     background-color: #1F2937;
@@ -97,29 +119,6 @@ ul {
     flex-basis: 800px;
     margin-right: 25px;
     height: 220px;
-}
-
-/* navbar */
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar .nav-links ul{
-    display: flex;
-    margin-right: 25px;
-}
-
-.navbar .logo p {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.navbar .nav-links a {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin-right: 15px;
 }
 
 /* Random Section */
@@ -208,5 +207,4 @@ ul {
 
 #footer .container {
     justify-content: center;
-
 }
